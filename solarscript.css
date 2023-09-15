@@ -1,0 +1,180 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tpbox {
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-bar {
+    background-color: limegreen;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 2em;
+}
+.nav-contents {
+    width: 50%;
+    color: white;
+    text-align: end;
+}
+.nav-contents button {
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    padding-left: 2em;
+}
+.nav-contents img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+}
+#popup {
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 15em;
+    text-align: justify;
+    right: 10px;
+}
+#popup a {
+    color: limegreen;
+    text-decoration: none;
+    z-index: 1;
+    display: block;
+    padding: 10px;
+}
+#popup a:hover {
+    background-color: limegreen;
+    color: white;
+}
+.intro {
+    width: 100%;
+    height: fit-content;
+    background-image: url(./images/chelsea-WvusC5M-TM8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 3em 2em;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 3em;
+}
+.intro h1 {
+    background-color: limegreen;
+    width: fit-content;
+    padding: 5px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.intro p {
+    background-color: limegreen;
+    padding: 5px;
+    width: fit-content;
+    text-align: justify;
+    margin-bottom: 3em;
+    word-wrap: break-word;
+}
+.intro-box {
+    background-color: limegreen;
+    color: white;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 3em auto;
+    padding: 3em;
+    word-wrap: break-word;
+}
+.intro-box i {
+    color: yellow;
+}
+.line {
+    border-bottom-style: groove;
+    margin: 0 2em 2em 2em;
+}
+.lines {
+    border-bottom-style: groove;
+    margin: 0 2em 2em 2em;
+    width: fit-content;
+}
+.services {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.services-box {
+    width: 100%;
+    text-align: justify;
+    color: black;
+    padding: 3em;
+}
+.services-box p {
+    width: fit-content;
+    word-break: break-all;
+}
+.services-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+}
+footer {
+    width: 100%;
+    background-color: limegreen;
+    height: fit-content;
+    padding: 0 3em 2em 3em;
+    color: white;
+}
+footer img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer input[type=email] {
+    box-sizing: border-box;
+    padding: 2px 6px;
+    display: inline-block;
+    width: 60%;
+}
+
+/******************************************************** About us *************************************************/
+
+.about {
+    width: 80%;
+    margin: 5em auto;
+    word-wrap: break-word;
+}
+.about-solarscript-lines {
+    border-bottom-style: groove;
+    margin: 0 0 1em 0;
+    width: fit-content;
+}
+
+
+/******************************************************** Contact us *************************************************/
+.info {
+    text-align: center;
+    margin: 2em auto;
+    width: 70%;
+}
+.info i {
+    background-color: limegreen;
+    color: white;
+    display: block;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    margin: 15px auto;
+}
