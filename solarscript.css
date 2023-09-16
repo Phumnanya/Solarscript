@@ -108,6 +108,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    padding: 3em;
 }
 @media (max-width: 800px) {.services {flex-direction: column;}}
 @media (max-width: 800px) {.services {justify-content: center;}}
@@ -115,7 +116,7 @@
     width: 100%;
     text-align: justify;
     color: black;
-    padding: 3em;
+    word-wrap: break-word;
 }
 .services-box p {
     width: fit-content;
