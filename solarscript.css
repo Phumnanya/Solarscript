@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .tpbox {
     width: 100%;
@@ -87,6 +87,7 @@
     margin: 3em auto;
     padding: 3em;
     word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
 }
 .intro-box i {
     color: yellow;
@@ -108,6 +109,8 @@
     align-items: center;
     flex-direction: row;
 }
+@media (max-width: 800px) {.services {flex-direction: column;}}
+@media (max-width: 800px) {.services {justify-content: center;}}
 .services-box {
     width: 100%;
     text-align: justify;
@@ -116,7 +119,7 @@
 }
 .services-box p {
     width: fit-content;
-    word-break: break-all;
+    word-spacing: normal;
 }
 .services-box img {
     width: 100%;
@@ -147,6 +150,8 @@ footer input[type=email] {
     padding: 2px 6px;
     display: inline-block;
     width: 60%;
+    background-color: white;
+    border: none;
 }
 
 /******************************************************** About us *************************************************/
