@@ -1,5 +1,5 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .tpbox {
     width: 100%;
@@ -85,7 +85,7 @@
     box-sizing: border-box;
     width: 80%;
     margin: 3em auto;
-    padding: 3em;
+    padding: 15px;
     word-wrap: break-word;
     font-family: 'Times New Roman', Times, serif;
 }
