@@ -116,6 +116,7 @@
     width: 100%;
     text-align: justify;
     color: black;
+    word-break: keep-all;
     word-wrap: break-word;
 }
 .services-box p {
