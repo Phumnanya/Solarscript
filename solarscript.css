@@ -111,7 +111,7 @@
     padding: 3em;
 }
 @media (max-width: 800px) {.services {flex-direction: column;}}
-@media (max-width: 800px) {.services {justify-content: center;}}
+@media (max-width: 800px) {.services {justify-content: space-between;}}
 .services-box {
     width: 100%;
     text-align: justify;
