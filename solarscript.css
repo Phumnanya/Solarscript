@@ -115,13 +115,13 @@
     width: 100%;
     height: fit-content;
     padding: 3em;
+    word-break: break-all;
 }
 .writeups {
     text-align: justify;
     color: black;
     width: 100%;
     height: fit-content;
-    word-break: break-all;
 }
 .services-box img {
     width: 100%;
