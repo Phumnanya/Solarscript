@@ -115,7 +115,6 @@
     width: 100%;
     height: fit-content;
     padding: 3em;
-    word-break: break-all;
     word-wrap: break-word;
 }
 .writeups {
