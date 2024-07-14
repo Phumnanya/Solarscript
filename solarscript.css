@@ -29,7 +29,7 @@
     padding-left: 2em;
 }
 .nav-contents img {
-    width: 100%;
+    width: 50%;
     height: 200px;
     object-fit: contain;
     display: block;
@@ -55,30 +55,16 @@
 }
 .intro {
     width: 100%;
-    height: fit-content;
-    background-image: url(./images/chelsea-WvusC5M-TM8-unsplash.jpg);
+    height: 300px;
+    background-image: url(./images/intro.jpg);
     background-position: center;
     background-size: cover;
-    padding: 3em 2em;
     background-repeat: no-repeat;
-    color: white;
     margin-bottom: 3em;
 }
-.intro h1 {
-    background-color: limegreen;
-    width: fit-content;
-    padding: 15px;
-    text-align: justify;
-    word-wrap: break-word;
-}
-.intro p {
-    background-color: limegreen;
-    padding: 15px;
-    width: fit-content;
-    text-align: justify;
-    margin-bottom: 3em;
-    word-wrap: break-word;
-}
+@media (max-width: 800px) {.intro {background-size: contain; margin-bottom: 0; background-position: top;
+     height: 200px;}}
+     
 .mission-box i {
     color: limegreen;
 }
@@ -90,6 +76,7 @@
     padding: 15px;
     word-wrap: break-word;
 }
+@media (max-width: 800px) {.mission-box {padding-top: 0;}}
 .line {
     border-bottom-style: groove;
     margin: 0 2em 2em 2em;
@@ -184,4 +171,87 @@ footer input[type=email] {
     padding: 20px;
     width: 100px;
     margin: 15px auto;
+}
+/********************************************************* Gallery ****************************************************/
+.explore {
+    padding: 20px;
+    margin: 3em auto 0em auto;
+    text-align: center;
+}
+@media (max-width: 800px) {.explore {width: 80%;}}
+.grid-container {
+    display: grid;
+    width: 95%;
+    grid-template-columns: 24% 50% 24%;
+    padding: 2px;
+    margin: 3em auto 3em auto;
+    gap: 5px;
+    height: 500px;
+    justify-content: center;
+}
+@media (max-width: 800px) {.grid-container {grid-template-columns: none; display: flex; flex-flow: row wrap;
+    height: fit-content;}}
+.grid-item {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+.grid-item:hover {
+    border: 1px solid #777;
+}
+.grid-item img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+@media (max-width: 800px) {.grid-item img {height: 300px;}}
+.item2 {
+    grid-area: 1 / 2 / 3 / 2 ;
+    background-color: limegreen;
+}
+.item2 img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+@media (max-width: 800px) {.item2 img {object-fit: cover; height: 300px;}}
+.item2 video {
+    width: 100%;
+    height: 480px;
+    background-color: white;
+}
+@media (max-width: 800px) {.item2 video {height: 300px;}}
+.item4 video {
+    width: 100%;
+    height: 240px;
+}
+@media (max-width: 800px) {.item4 video {height: 300px;}}
+.quotes {
+    width: 80%;
+    margin: 3em auto;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    text-align: center;
+}
+.words {
+    padding-top: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.words p {
+    float: right;
+    clear: right;
+    font-weight: bold;
+}
+.quotes-item1 {
+    font-weight: bold;
+    font-size: 100px;
+    color: limegreen;
+}
+.quotes-item2 {
+    font-weight: bold;
+    font-size: 100px;
+    color: limegreen;
 }
