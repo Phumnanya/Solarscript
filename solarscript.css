@@ -17,7 +17,7 @@
     flex-direction: row;
     padding: 0 2em;
 }
-@media (max-width: 800px) {.nav-bar {height: 150px;}}
+@media (max-width: 800px) {.nav-bar {height: 100px;}}
 .nav-contents {
     width: 50%;
     color: white;
